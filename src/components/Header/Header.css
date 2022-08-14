@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25% 8%;
+    background-color: #1C2B35;
+    box-shadow: 2px 2px 8px gray;
+}
+.navbar .nav-links{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #f9f9f9;
+    margin-left: 2rem;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.navbar .icons{
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
