@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <nav className='navbar'>
             <img src={logo} alt="logo" />
-            <ul className='nav-links'>
+            <ul className={` ${!open?"nav-links":"closed-menu"}`}>
                 <li><a href="#"><i class='bx bx-store icons'></i>Shop</a> </li>
                 <li><a href="#"><i class='bx bxs-cart icons'></i>Order</a> </li>
                 <li><a href="#"><i class='bx bxs-shopping-bags icons' ></i>Order Review</a></li>

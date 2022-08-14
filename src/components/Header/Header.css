@@ -34,6 +34,10 @@
     color: orange;
 }
 
+.closed-menu{
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (max-width:855px) {
     .navbar .nav-links{
@@ -48,4 +52,9 @@
     .show{
         display: block;
     }
+    
+    /* .navbar .nav-links{
+        display: flex;
+        flex-direction: column;
+    } */
 }
