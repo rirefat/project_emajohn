@@ -4,11 +4,12 @@ h3{
 .product-card{
     margin: auto;
     overflow: hidden;
-    height: 478px;
+    height: 488px;
     width: 248px;
-    border-radius: 0px;
+    border-radius: 8px;
     border: 1px solid #0e161a58;
     position: relative;
+    box-shadow: 2px 2px 5px #0e161a41;
 }
 
 .img{
@@ -35,7 +36,7 @@ h3{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.0015em;
     margin-top: 1rem;
@@ -49,7 +50,7 @@ h3{
     line-height: 14px;
     letter-spacing: 0.004em;
     text-align: left;
-    margin: 0.25rem 0;
+    margin-bottom: 0.5rem;
 }
 
 .product-card button{
@@ -57,7 +58,7 @@ h3{
     padding: 0.75rem 0;
     border: none;
     background-color: #FBDCAE;
-    font-size: 1rem;
+    font-size: 1rem;    
 }
 
 .product-card button:hover{
@@ -67,4 +68,23 @@ h3{
 
 .product-card button .icons{
     font-size: 1rem;
+}
+
+.product-card .content{
+    margin-left: 0.5rem;
+}
+
+.product-card .rating-section{
+    margin-bottom: 0.25rem;
+}
+.product-card .ratings{
+    color: orangered;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
 }
