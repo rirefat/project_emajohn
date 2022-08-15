@@ -14,9 +14,11 @@ const Shop = () => {
             <div className="product-container">
                 <h1 className='section-title'>Our New Arrivals</h1>
                 <h3>Available : {products.length}</h3>
-                {
-                    products.map(product=><Products key={product.id} product={product}></Products>)
-                }
+                <div className="products">
+                    {
+                        products.map(product=><Products key={product.id} product={product}></Products>)
+                    }
+                </div>
             </div>
             <div className="cart-container">
                 <h1 className='section-title'>Order Summary</h1>

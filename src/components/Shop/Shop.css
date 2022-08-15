@@ -15,6 +15,12 @@
     margin: 2rem 0;
 }
 
+.product-container .products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.5rem;
+}
+
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
     min-height: 100vh;
