@@ -20,7 +20,20 @@ const Shop = () => {
                 </div>
             </div>
             <div className="cart-container">
-                <h1 className='section-title'>Order Summary</h1>
+                <div className="cart-summery">
+                    <h1 className='section-title'>Order Summary</h1>
+                    <div className="summery-content">
+                        <p>Selected Items:</p>
+                        <p>Total Price: $</p>
+                        <p>Total Shipping Charge: $</p>
+                        <p>Tax: $</p>
+                        <h3>Grand Total: $</h3>
+                        <div className="btn-section">
+                            <button><span>Clear Cart</span> <i className='bx bxs-trash' ></i></button>
+                            <button><span>Review Order</span> <i className='bx bx-right-arrow-alt' ></i></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
