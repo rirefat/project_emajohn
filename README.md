@@ -1,6 +1,5 @@
-# Ema-John Ecommerce website Sample with React 
-> A featuring Single Page E-commerce website 
-> Visit Now : [Live Website](https://project-emajohn.netlify.app)
+# Ema-John
+> A featuring Single Page React E-commerce website. Visit Now : [Live Website](https://project-emajohn.netlify.app)
 
 # Used Technologies are:
 - HTML
