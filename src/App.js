@@ -10,7 +10,6 @@ const App = () => {
       <Header></Header>
       <Shop></Shop>
       <Footer></Footer>
-
       <ScrollToTop smooth={true} top={500} width={18} height={18}/>
     </div>
   );
