@@ -8,6 +8,9 @@
     background-color: #1C2B35;
     box-shadow: 2px 2px 8px gray;
 }
+.navbar .logo{
+    cursor: pointer;
+}
 .navbar .nav-links{
     display: flex;
 }

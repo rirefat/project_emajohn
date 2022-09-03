@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Header.css';
 import { Link } from "react-router-dom";
 import logo from '../../images/Logo.svg';
 
 const Header = () => {
     const [open, setOpen]=useState(false);
+    const navigate=useNavigate();
+    const gotoshop=()=>{
+        navigate(`/`);
+    }
     return (
         <nav className='navbar'>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className='logo' onClick={gotoshop}/>
             <ul className={`${open?"drop-down":"nav-links"}`}>
                 {/* <li><a href="/shop"><i className='bx bx-store icons'></i>Shop</a> </li>
                 <li><a href="/order"><i className='bx bxs-cart icons'></i>Order</a> </li>
